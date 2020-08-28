@@ -19,12 +19,11 @@ import java.util.Scanner;
         }
 
         public static void main(String[] args) {
-//        try {
-//            text1();
-//        } catch (IOException exception) {
-//            exception.printStackTrace();
-//        }
-//        text2();
+      try {
+          text1();
+      } catch (IOException exception) {
+          exception.printStackTrace();        }
+        text2();
             InputStream in;
             OutputStream out;
 }
